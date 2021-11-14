@@ -8,5 +8,4 @@ sleep1
 python termux-linux-install.py
 echo 'cd ~/Termux-Linux/Debian && ./start-debian.sh' > ~/.bashrc
 cd ~/Termux-Linux/Debian
-sleep1
 ./start-debian.sh
