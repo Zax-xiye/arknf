@@ -1,3 +1,4 @@
+# XD
 
     pkg install proot git python -y
     git clone https://github.com/sqlsec/termux-install-linux
@@ -17,7 +18,7 @@
     touch ark_data.json
     mitmweb -p 8008 -s ark.py
 
+***
+
     cd ~/Termux-Linux/Debian && ./start-debian.sh
     cd ark-fatigue && mitmweb -p 8008 -s arknights.py
-
-XD
