@@ -4,7 +4,9 @@ sed -i 's@^\(deb.*science stable\)$@#\1\ndeb https://mirrors.tuna.tsinghua.edu.c
 pkg install proot git python -y
 git clone https://github.com/sqlsec/termux-install-linux
 cd termux-install-linux
+sleep1
 python termux-linux-install.py
 echo 'cd ~/Termux-Linux/Debian && ./start-debian.sh' > ~/.bashrc
 cd ~/Termux-Linux/Debian
+sleep1
 ./start-debian.sh
