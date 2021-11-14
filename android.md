@@ -6,4 +6,4 @@ use [Termux](https://f-droid.org/packages/com.termux/)
 
 进入debian后
 
-    bash <(curl -s -S -L https://github.com/Zax-xiye/arknf/raw/main/android_2.sh)
+    apt update && apt install curl && bash <(curl -s -S -L https://github.com/Zax-xiye/arknf/raw/main/android_2.sh)
